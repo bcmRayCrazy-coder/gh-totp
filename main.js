@@ -1,6 +1,6 @@
 /// <reference path="types.d.ts" />
 
-const token = "4I5YE5JJUHPUSYBI"
+const token = "Your setup key here"
 
 const oldNow = Date.now.bind(Date)
 Date.now = () => Math.floor(oldNow() / 30000) * 30000
